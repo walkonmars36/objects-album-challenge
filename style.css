@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&family=Outfit&display=swap");
 .card {
+  width: 100%;
   max-width: 22.5rem;
   background-color: #f0f0f0;
   border-radius: 0.5rem;
