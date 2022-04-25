@@ -1,4 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&family=Outfit&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  color: #272626;
+}
+
+body {
+  background-color: #f43268;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
+  gap: 1.5rem;
+}
+
 .card {
   width: 100%;
   max-width: 22.5rem;
@@ -50,24 +70,4 @@
 .card > .card__content > .card__genre-values {
   font-size: 1.125rem;
   color: #989b9e;
-}
-
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 1rem;
-  gap: 1.5rem;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Lato", sans-serif;
-  color: #272626;
-}
-
-body {
-  background-color: #f43268;
 }
