@@ -8,26 +8,6 @@ const inRainbows = {
   genres: ["Alternative", "Electronica"],
 };
 
-const magma = {
-  title: "Magma",
-  artist: "Gojira",
-  releaseDate: 2016,
-  imgSrc:
-    "https://media.pitchfork.com/photos/5929b6469d034d5c69bf518d/1:1/w_320,c_limit/730a379d.jpg",
-  rating: 7.6,
-  genres: ["Jazz", "Metal"],
-};
-
-const brandNewSecondhand = {
-  title: "Brand New Secondhand",
-  artist: "Roots Manuva",
-  releaseDate: 1999,
-  imgSrc:
-    "https://media.pitchfork.com/photos/5929c3a7c0084474cd0c3506/1:1/w_320,c_limit/c23e052b.gif",
-  rating: 9.5,
-  genres: ["Electronic", "Jazz", "Rap"],
-};
-
 const getAlbumHtml = (album) => {
   return `<div class="card">
 			<div class="card__header-section">
@@ -51,6 +31,4 @@ const getAlbumHtml = (album) => {
 };
 
 const container = document.querySelector(".card-container");
-container.innerHTML += getAlbumHtml(inRainbows);
-container.innerHTML += getAlbumHtml(magma);
-container.innerHTML += getAlbumHtml(brandNewSecondhand);
+container.innerHTML = getAlbumHtml(inRainbows);
