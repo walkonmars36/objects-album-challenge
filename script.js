@@ -1,14 +1,5 @@
 const cardContainer = document.querySelector(".card-container");
 
-// const album = {
-//   artist: "Radiohead",
-//   title: "In Rainbows",
-//   artwork: (src = "https://media.pitchfork.com/photos/5929b2fe9d034d5c69bf4c59/1:1/w_600/7055fb4d.jpg"),
-//   year: "2007",
-//   genre: "Alternative, Electronica",
-//   rating: "10",
-// };
-
 const albums = [
   {
     artist: "Radiohead",
